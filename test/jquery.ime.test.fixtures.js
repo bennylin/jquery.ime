@@ -330,36 +330,105 @@ var palochkaVariants = {
 
 			{ input: 'A', output: 'ᯁ', description: 'Toba Transliteration - A - simalungun a' },
 			{ input: 'S', output: 'ᯙ', description: 'Toba Transliteration - S - simalungun sa' },
-
+			{ input: 'D', output: 'ᯩ', description: 'Toba Transliteration - D - talinga' },
 			{ input: 'F', output: '᯳', description: 'Toba Transliteration - F - virama' },
 			{ input: 'G', output: 'ᯏ', description: 'Toba Transliteration - G - simalungun ga' },
 			{ input: 'H', output: 'ᯃ', description: 'Toba Transliteration - H - simalungun ha' },
 			{ input: 'J', output: 'ᯄ', description: 'Toba Transliteration - J - mandailing ha' },
-
+			{ input: 'K', output: 'ᯱ', description: 'Toba Transliteration - K - hajoringan -h' },
 			{ input: 'L', output: 'ᯟ', description: 'Toba Transliteration - L - simalungun la' },
 
 			{ input: 'Z', output: 'ᯚ', description: 'Toba Transliteration - Z - mandailing sa' },
-
+			{ input: 'X', output: 'ᯰ', description: 'Toba Transliteration - X - amisara -ng' },
+			{ input: 'C', output: 'ᯠ', description: 'Toba Transliteration - C - nya / karo ca' },
+			{ input: 'V', output: '᯦', description: 'Toba Transliteration - V - tompi' },
 			{ input: 'B', output: 'ᯆ', description: 'Toba Transliteration - B - karo ba' },
 			{ input: 'N', output: 'ᯊ', description: 'Toba Transliteration - N - mandailing na' },
 			{ input: 'M', output: 'ᯕ', description: 'Toba Transliteration - M - simalungun ma' },
 
-			{ input: '`', output: 'ᯠ', description: 'Toba Transliteration - ` - nya' },
-			{ input: '=', output: 'ᯱ', description: 'Toba Transliteration - = - consonant sign h' },
-			{ input: '+', output: '᯦', description: 'Toba Transliteration - + - tompi' },
-			{ input: '-', output: '', description: 'Toba Transliteration - ng - amisara' },
-			{ input: '_', output: 'ᯩ', description: 'Toba Transliteration - _ - talinga' },
-			{ input: '', output: '', description: 'Toba Transliteration - ' },
-
-			{ input: 'B', output: 'ᯆ', description: 'Toba Transliteration - B - karo ba' },
-
 			{ input: [ [ '4', true ] ], output: '᯼', description: 'Toba Transliteration - alt-4 - bindu na metek' },
 			{ input: [ [ '5', true ] ], output: '᯽', description: 'Toba Transliteration - alt-5 - bindu pinarboras' },
 			{ input: [ [ '6', true ] ], output: '᯾', description: 'Toba Transliteration - alt-6 - bindu judul' },
-			{ input: [ [ '7', true ] ], output: '᯿', description: 'Toba Transliteration - alt-7 - bindu pangolat' },
+			{ input: [ [ '7', true ] ], output: '᯿', description: 'Toba Transliteration - alt-7 - bindu pangolat' }
+		]
+	},
+	{
+		description: 'Batak Mandailing transliteration test',
+		inputmethod: 'btm-transliteration',
+		tests: [
+			{ input: 'a', output: 'ᯀ', description: 'Mandailing transliteration a' },
+			{ input: 'ba', output: 'ᯅ', description: 'Mandailing transliteration ba' },
+			{ input: 'ca', output: 'ᯚ᯦', description: 'Mandailing transliteration ca' },
+			{ input: 'da', output: 'ᯑ', description: 'Mandailing transliteration da' },
+			{ input: 'e', output: 'ᯀᯩ', description: 'Mandailing transliteration e' },
+			{ input: 'f', output: '᯳', description: 'Mandailing transliteration PANONGONAN = virama' },
+			{ input: 'ga', output: 'ᯎ', description: 'Mandailing transliteration ga' },
+			{ input: 'h', output: 'ᯱ', description: 'Mandailing transliteration CONSONANT SIGN H = hajoringan (-h)' },
+			{ input: 'ha', output: 'ᯄ', description: 'Mandailing transliteration ha' },
+			{ input: 'i', output: 'ᯤ', description: 'Mandailing transliteration i' },
+			{ input: 'ja', output: 'ᯐ', description: 'Mandailing transliteration ja' },
+			{ input: 'ka', output: 'ᯄ᯦', description: 'Mandailing transliteration ka' },
+			{ input: 'la', output: 'ᯞ', description: 'Mandailing transliteration la' },
+			{ input: 'ma', output: 'ᯔ', description: 'Mandailing transliteration ma' },
+			{ input: 'na', output: 'ᯊ', description: 'Mandailing transliteration na' },
+			{ input: 'o', output: 'ᯀᯬ', description: 'Mandailing transliteration o' },
+			{ input: 'pa', output: 'ᯇ', description: 'Mandailing transliteration pa' },
+			{ input: 'q', output: '᯲', description: 'Mandailing transliteration PANGOLAT (PANGGOTAP) = virama' },
+			{ input: 'ra', output: 'ᯒ', description: 'Mandailing transliteration ra' },
+			{ input: 'sa', output: 'ᯚ', description: 'Mandailing transliteration sa' },
+			{ input: 'ta', output: 'ᯖ', description: 'Mandailing transliteration ta' },
+			{ input: 'u', output: 'ᯥ', description: 'Mandailing transliteration u' },
+			{ input: 'v', output: '᯦', description: 'Mandailing transliteration TOMPI' },
+			{ input: 'wa', output: 'ᯋ', description: 'Mandailing transliteration wa' },
+			{ input: 'x', output: 'ᯀᯧ', description: 'Mandailing transliteration VOWEL SIGN E = kebereten' },
+			{ input: 'ya', output: 'ᯛ', description: 'Mandailing transliteration ya' },
+			{ input: 'z', output: 'ᯰ', description: 'Mandailing transliteration CONSONANT SIGN NG = amisara (-ng)' },
+			{ input: 'Mandung sampe amu tuson Wikikamus saro Mandailing', output: 'ᯔᯊ᯲ᯑᯮᯰ ᯚᯔ᯲ᯇᯩ ᯀᯔᯮ ᯖᯮᯚᯬᯊ᯲ ᯋᯪᯄ᯦ᯪᯄ᯦ᯔᯮᯚ᯲ ᯚᯒᯬ ᯔᯊ᯲ᯑᯤᯞᯪᯰ', description: 'Mandailing transliteration' }
+		]
+	},
+	{
+		description: 'Batak Mandailing keyboard test',
+		inputmethod: 'btm-keyboard',
+		tests: [
+			{ input: 'q', output: '᯲', description: 'Mandailing keyboard - q = pangolat' },
+			{ input: 'w', output: 'ᯋ', description: 'Mandailing keyboard - wa' },
+			{ input: 'e', output: 'ᯩ', description: 'Mandailing keyboard = -e' },
+			{ input: 'r', output: 'ᯒ', description: 'Mandailing keyboard - ra' },
+			{ input: 't', output: 'ᯖ', description: 'Mandailing keyboard - ta' },
+			{ input: 'y', output: 'ᯛ', description: 'Mandailing keyboard - ya' },
+			{ input: 'u', output: 'ᯮ', description: 'Mandailing keyboard = -u' },
+			{ input: 'i', output: 'ᯪ', description: 'Mandailing keyboard = -i' },
+			{ input: 'o', output: 'ᯬ', description: 'Mandailing keyboard = -o' },
+			{ input: 'p', output: 'ᯇ', description: 'Mandailing keyboard - pa' },
 
-			{ input: [ [ 'w', true ] ], output: 'ᯍ', description: 'Toba Transliteration - alt-w' },
-			{ input: [ [ '`', true ] ], output: '`', description: 'Toba Transliteration - alt-`' }
+			{ input: 'a', output: 'ᯀ', description: 'Mandailing keyboard - a' },
+			{ input: 's', output: 'ᯚ', description: 'Mandailing keyboard - sa' },
+			{ input: 'd', output: 'ᯑ', description: 'Mandailing keyboard - da' },
+			{ input: 'f', output: '᯳', description: 'Mandailing keyboard - f = panongonan' },
+			{ input: 'g', output: 'ᯎ', description: 'Mandailing keyboard - ga' },
+			{ input: 'h', output: 'ᯂ', description: 'Mandailing keyboard - ha' },
+			{ input: 'j', output: 'ᯐ', description: 'Mandailing keyboard - ja' },
+			{ input: 'k', output: 'ᯄ᯦', description: 'Mandailing keyboard - ka = ha+tompi' },
+			{ input: 'l', output: 'ᯞ', description: 'Mandailing keyboard - la' },
+
+			{ input: 'z', output: 'ᯝ', description: 'Mandailing keyboard - z = nga' },
+			{ input: 'x', output: 'ᯠ', description: 'Mandailing keyboard - x = nya' },
+			{ input: 'c', output: 'ᯚ᯦', description: 'Mandailing keyboard - ca = sa+tompi' },
+			{ input: 'v', output: '᯦', description: 'Mandailing keyboard - v = tompi' },
+			{ input: 'b', output: 'ᯅ', description: 'Mandailing keyboard - ba' },
+			{ input: 'n', output: 'ᯊ', description: 'Mandailing keyboard - na' },
+			{ input: 'm', output: 'ᯔ', description: 'Mandailing keyboard - ma' },
+
+			{ input: 'E', output: 'ᯧ', description: 'Mandailing keyboard - E - kebereten' },
+			{ input: 'U', output: 'ᯥ', description: 'Mandailing keyboard - U - syllable "u"' },
+			{ input: 'I', output: 'ᯤ', description: 'Mandailing keyboard - I - syllable "i"' },
+			{ input: 'H', output: 'ᯱ', description: 'Mandailing keyboard - H - hajoringan "-h"' },
+			{ input: 'Z', output: 'ᯰ', description: 'Mandailing keyboard - Z - amisara "-ng"' },
+
+      { input: [ [ '4', true ] ], output: '᯼', description: 'Mandailing keyboard - alt-4 - bindu na metek' },
+			{ input: [ [ '5', true ] ], output: '᯽', description: 'Mandailing keyboard - alt-5 - bindu pinarboras' },
+			{ input: [ [ '6', true ] ], output: '᯾', description: 'Mandailing keyboard - alt-6 - bindu judul' },
+			{ input: [ [ '7', true ] ], output: '᯿', description: 'Mandailing keyboard - alt-7 - bindu pangolat' }
 		]
 	},
 	{
@@ -2733,6 +2802,20 @@ var palochkaVariants = {
 		]
 	},
 	{
+		description: 'Jawa Latin extended test',
+		inputmethod: 'jv-keyboard',
+		tests: [
+			{ input: '`En`ek', output: 'Ènèk', description: 'Jawa Latin extended È' },
+			{ input: '~Enak~e', output: 'Énaké', description: 'Jawa Latin extended É' },
+			{ input: '^En^eg', output: 'Ênêg', description: 'Jawa Latin extended Ê' },
+			{ input: '^An^a', output: 'Ånå', description: 'Jawa Latin extended Å' },
+			{ input: '~An~a', output: 'Ånå', description: 'Jawa Latin extended Å - alternate' },
+			{ input: 'tula.da .Da .Ta .ta', output: 'tulaḍa Ḍa Ṭa ṭa', description: 'Jawa Latin extended Ḍ and Ṭ' },
+			{ input: 'tula~da ~Da ~Ta ~ta', output: 'tulaḍa Ḍa Ṭa ṭa', description: 'Jawa Latin extended Ḍ and Ṭ - alternate' }
+
+		]
+	},
+	{
 		description: 'Georgian Transliteration test',
 		inputmethod: 'ka-transliteration',
 		tests: [
@@ -4081,16 +4164,6 @@ var palochkaVariants = {
 			{ input: 'B', output: 'b̓', description: 'Lushootseed Tulalip b̓' },
 			{ input: 'N', output: 'n̓', description: 'Lushootseed Tulalip n̓' },
 			{ input: 'M', output: 'm̓', description: 'Lushootseed Tulalip m̓' }
-		]
-	},
-	{
-		description: 'Nzema tilde test',
-		inputmethod: 'nzi-tilde',
-		tests: [
-			{ input: '~E', output: 'Ɛ', description: 'Nzema tilde ~E' },
-			{ input: '~e', output: 'ɛ', description: 'Nzema tilde ~e' },
-			{ input: '~O', output: 'Ɔ', description: 'Nzema tilde ~O' },
-			{ input: '~o', output: 'ɔ', description: 'Nzema tilde ~o' }
 		]
 	},
 	{
@@ -5495,6 +5568,14 @@ var palochkaVariants = {
 		tests: [
 			{ input: 'loant~sa', output: 'loantša', description: 'Sotho tilde loantša' },
 			{ input: 'ro~-na', output: 'rōna', description: 'Sotho tilde rōna' }
+		]
+	},
+	{
+		description: 'Sundanese keyboard test',
+		inputmethod: 'su-keyboard',
+		tests: [
+			{ input: '~E', output: 'É', description: 'Sundanese uppercase É' },
+			{ input: '~e', output: 'é', description: 'Sundanese lowercase é' }
 		]
 	},
 	{

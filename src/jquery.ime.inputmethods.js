@@ -72,6 +72,14 @@
 			name: 'Toba Transliteration',
 			source: 'rules/bbc/bbc-transliteration.js'
 		},
+		'btm-transliteration': {
+			name: 'Transliteration',
+			source: 'rules/btm/btm-transliteration.js'
+		},
+		'btm-keyboard': {
+			name: 'Mandailing Keyboard',
+			source: 'rules/btm/btm-keyboard.js'
+		},
 		'bci-tilde': {
 			name: 'Baoulé tilde keyboard',
 			source: 'rules/bci/bci-tilde.js'
@@ -416,6 +424,10 @@
 			name: 'Transliteration',
 			source: 'rules/jv/jv-transliteration.js'
 		},
+		'jv-keyboard': {
+			name: 'Jawa Latin extended',
+			source: 'rules/jv/jv-keyboard.js'
+		},
 		'ka-kbd': {
 			name: 'სტანდარტული კლავიატურის',
 			source: 'rules/ka/ka-kbd.js'
@@ -678,10 +690,6 @@
 			name: 'Chichewa / Nyanja tilde',
 			source: 'rules/ny/ny-tilde.js'
 		},
-		'nzi-tilde': {
-			name: 'Nzema tilde',
-			source: 'rules/nzi/nzi-tilde.js'
-		},
 		'or-inscript': {
 			name: 'ଇନସ୍କ୍ରିପ୍ଟ',
 			source: 'rules/or/or-inscript.js'
@@ -830,6 +838,10 @@
 			name: 'Sesotho tilde',
 			source: 'rules/st/st-tilde.js'
 		},
+		'su-keyboard': {
+			name: 'Sundanese keyboard',
+			source: 'rules/su/su-keyboard.js'
+		},
 		'sv-normforms': {
 			name: 'Normal forms',
 			source: 'rules/sv/sv-normforms.js'
@@ -974,10 +986,6 @@
 			autonym: 'ajagbe',
 			inputmethods: [ 'ajg-tilde' ]
 		},
-		ak: {
-			autonym: 'Akan',
-			inputmethods: [ 'ak-qx', 'ak-tilde' ]
-		},
 		am: {
 			autonym: 'አማርኛ',
 			inputmethods: [ 'am-transliteration' ]
@@ -1009,6 +1017,10 @@
 		bbc: {
 			autonym: 'Batak Toba',
 			inputmethods: [ 'bbc-transliteration' ]
+		},
+		btm: {
+			autonym: 'Batak Mandailing',
+			inputmethods: [ 'btm-keyboard', 'btm-transliteration' ]
 		},
 		bci: {
 			autonym: 'wawle',
@@ -1247,8 +1259,8 @@
 			inputmethods: [ 'ish-tilde' ]
 		},
 		jv: {
-			autonym: 'ꦧꦱꦗꦮ',
-			inputmethods: [ 'jv-transliteration' ]
+			autonym: 'ꦧꦱꦗꦮ (Basa Jawa)',
+			inputmethods: [ 'jv-transliteration', 'jv-keyboard' ]
 		},
 		ka: {
 			autonym: 'ქართული ენა',
@@ -1432,7 +1444,7 @@
 		},
 		nzi: {
 			autonym: 'Nzema',
-			inputmethods: [ 'nzi-tilde' ]
+			inputmethods: [ 'ak-tilde' ]
 		},
 		or: {
 			autonym: 'ଓଡ଼ିଆ',
@@ -1513,6 +1525,10 @@
 		st: {
 			autonym: 'Sesotho',
 			inputmethods: [ 'st-tilde' ]
+		},
+		su: {
+			autonym: 'Sunda',
+			inputmethods: [ 'su-keyboard' ]
 		},
 		sv: {
 			autonym: 'Svenska',
